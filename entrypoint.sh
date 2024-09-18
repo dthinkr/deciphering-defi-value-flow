@@ -3,7 +3,6 @@
 # Use Python 3.11 if available, otherwise fall back to 'python3'
 PYTHON=$(command -v python3.11 || command -v python3)
 
-# Print Python version and path for verification
 echo "Current Python version:"
 $PYTHON --version
 echo "Python path:"
